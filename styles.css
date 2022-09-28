@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+  
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+}
+ h1 {
+   text-align: center;
+   color: hsl(0, 17%, 92%);
+   margin: 15px 0 25px;
+   font-family: 'Nabla', cursive;
+ }
+  
+ h1:hover {
+  color: rgba(0, 173, 181, 0.8);
+  transition: all 0.5s ease 0s;
+ }
+ h2 {
+  text-align: center;
+  margin: 25px 0 0;
+  color: #ffffff;
+  font-family: 'Nabla', cursive;
+  font-size: xxx-large;
+ }
+h2:hover {
+  color: #00AFC1;
+  transition: all 0.5s ease 0s;
+  
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 1.5rem;
+ 
+}
+
+
+a,
+button {
+  color: #ffffff;
+}
+
+
+
+
+.nav-links {
+  list-style: none;
+  
+
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+ position: sticky;
+  top: 0px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 1rem;
+  transition: all 0.5s ease 0s;
+   
+}
+
+.nav-links li a:hover {
+  color: rgba(0, 173, 181, 0.8);
+}
+
+div {
+  display: block;
+}
+
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 25px auto 120px;
+  box-shadow: -10px 5px 10px black;
+  border-radius: 20px;
+  transition: bottom ease 0.5;
+  
+}
+.container:hover{
+  bottom: -50px;
+   
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10%;
+}
+
+.color-container {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  min-height: 100px;
+}
+
+
+.cool-blue {
+  background-color: #008080;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  
+}
+
+.gold {
+  background-color: #FFD700;
+  color: #fff;
+  margin-right: 5px;
+  border-radius: 10px;
+
+}
+
+.mint-green {
+  background-color: #4fe0b0;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.maroon {
+  background-color: #820000;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.aqua {
+  background-color: #00FFFF;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.cadmium-green {
+  background-color: #006B3C;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+  color: #fff;
+}
+
+.font-label {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.regular {
+  font-family: 'Playfair Display', serif;
+}
+
+.bold {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: italic;
+}
+
+.regular-nabla {
+  font-family: 'Nabla', cursive;
+  font-size: x-large;
+  margin: -10px;
+}
+
+.regular-dancing-script {
+  font-family: 'Dancing Script', cursive;
+  font-size: x-large;
+}
+
+.bold-dancing-script {
+  font-family: 'Dancing Script', cursive;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+
+.social-links {
+  transition: 0.2s ease-in-out;
+  position: relative;
+  list-style: none;
+  display: flex;
+  height: 100px;
+  width: 500px;
+}
+
+.social-links:hover > li {
+  transform: scale(0.95);
+  filter: blur(2px);
+}
+
+.social-links li {
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  place-items: center;
+  cursor: pointer;
+  display: grid;
+  margin: auto;
+  height: 80px;
+  width: 80px;
+}
+
+.social-links li:hover {
+  filter: blur(0px);
+  transform: scale(1);
+}
+
+.social-links svg {
+  transition: 0.2s ease-in-out;
+  pointer-events: none;
+  height: 40px;
+  width: 40px;
+}
+
+.social-links li.google {
+  background-color: #ea4335;
+}
+
+.social-links li.facebook {
+  background-color: #3f51b5;
+}
+
+.social-links li.twitter {
+  background-color: #03a9f4;
+}
+
+.social-links li.yahoo {
+  background-color: #410093;
+}
+
+.social-links li.windows {
+  background-color: #2499ff;
+}
+
